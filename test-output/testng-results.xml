@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6475" started-at="2019-01-12T22:04:13Z" finished-at="2019-01-12T22:04:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6475" started-at="2019-01-12T22:04:13Z" finished-at="2019-01-12T22:04:20Z">
+      <class name="com.bookit.tests.API1">
+        <test-method status="PASS" signature="getWithHeaders()[pri:0, instance:com.bookit.tests.API1@e25b2fe]" name="getWithHeaders" duration-ms="2793" started-at="2019-01-12T22:04:13Z" finished-at="2019-01-12T22:04:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithHeaders -->
+        <test-method status="PASS" signature="printResponse()[pri:0, instance:com.bookit.tests.API1@e25b2fe]" name="printResponse" duration-ms="808" started-at="2019-01-12T22:04:16Z" finished-at="2019-01-12T22:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResponse -->
+        <test-method status="PASS" signature="simpleStatusCode()[pri:0, instance:com.bookit.tests.API1@e25b2fe]" name="simpleStatusCode" duration-ms="946" started-at="2019-01-12T22:04:17Z" finished-at="2019-01-12T22:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleStatusCode -->
+        <test-method status="PASS" signature="verifyLastName()[pri:0, instance:com.bookit.tests.API1@e25b2fe]" name="verifyLastName" duration-ms="1106" started-at="2019-01-12T22:04:18Z" finished-at="2019-01-12T22:04:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLastName -->
+        <test-method status="PASS" signature="verifyRegionCount()[pri:0, instance:com.bookit.tests.API1@e25b2fe]" name="verifyRegionCount" duration-ms="728" started-at="2019-01-12T22:04:19Z" finished-at="2019-01-12T22:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegionCount -->
+      </class> <!-- com.bookit.tests.API1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

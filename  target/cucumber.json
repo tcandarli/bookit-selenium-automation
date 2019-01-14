@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8144950855,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Team information",
+        "description": "",
+        "id": "user-account-information;team-information",
+        "after": [
+          {
+            "result": {
+              "duration": 3062356827,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18513413743,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3162580272,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user logs using \"kodonnelly7t@bigcartel.com\" and \"robertamurrison\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kodonnelly7t@bigcartel.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"robertamurrison\"",
+                  "offset": 53
+                }
+              ],
+              "location": "LoginStepDefinitions.the_user_logs_using_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5786238994,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user goes to myself page",
+            "match": {
+              "location": "AccountInfoStepDefs.the_user_goes_to_myself_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2476817736,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the team name \"Django\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Django\"",
+                  "offset": 14
+                }
+              ],
+              "location": "AccountInfoStepDefs.the_team_name_should_be_displayed(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account"
+          }
+        ]
+      }
+    ],
+    "name": "User account information",
+    "description": "",
+    "id": "user-account-information",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/account_information.feature",
+    "tags": []
+  }
+]
